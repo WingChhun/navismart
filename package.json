@@ -1,0 +1,36 @@
+{
+  "name": "navismart",
+  "version": "1.0.0",
+  "description": "Navismart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WingChhun/navismart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WingChhun/navismart/issues"
+  },
+  "homepage": "https://github.com/WingChhun/navismart#readme",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.15.1",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.11",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7"
+  }
+}
